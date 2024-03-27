@@ -62,7 +62,7 @@ export default function Home() {
                     </div>
                   </div>
                   :
-                  <div className="text-center mx-auto max-w-[386px] h-[]  flex flex-col pt-24 items-center bg-[#091d3b] text-[#fff] px-4">
+                  <div className="text-center mx-auto max-w-[386px]   flex flex-col sm:pt-24 max-sm:py-10 items-center bg-[#091d3b] text-[#fff] px-4">
                     <h2 className="font-serif text-3xl mb-4">Never miss a story</h2>
                     <p className="mb-10 text-[#e7e7e7]">Stay updated about McKinsey news as it happens</p>
                     <form className="flex gap-3">
