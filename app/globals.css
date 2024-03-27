@@ -16,18 +16,18 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.hover::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: var(--mdc-size-spacing-16);
+  width: calc(100% - 2rem);
+  height: var(--mdc-size-spacing-4);
+  background: #0000;
+  box-sizing: inherit;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+html{
+  scroll-behavior: smooth;
 }
